@@ -15,11 +15,11 @@ E:/Outscal/UnityGit/UnityGit Project
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-52383
+63391
 Successfully changed project path to: E:/Outscal/UnityGit/UnityGit Project
 E:/Outscal/UnityGit/UnityGit Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 103.77 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 182.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -35,69 +35,5 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56796
 Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003903 seconds.
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 80.70 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.682 seconds
-Platform modules already initialized, skipping
-Registering precompiled user dll's ...
-Registered in 0.006954 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 74.70 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.998 seconds
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.28 seconds
-Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.9 MB.
-System memory in use after: 92.8 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2513.
-Total: 4.134500 ms (FindLiveObjects: 0.288900 ms CreateObjectMapping: 0.135100 ms MarkObjects: 3.382000 ms  DeleteObjects: 0.326100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/Scenes/Level1.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baba9f3d9574a94932fc7087cc241180') in 0.311508 seconds 
-  Import took 0.389643 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.999076 seconds.
-  path: Assets/Scenes/Sprites
-  artifactKey: Guid(29a5e2da157fc6e4b9dfc2e3649b87f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Sprites using Guid(29a5e2da157fc6e4b9dfc2e3649b87f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17709fbf9bace6b45774b53c6770d55f') in 0.163000 seconds 
-  Import took 0.205681 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 97.431228 seconds.
-  path: Assets/Sprites/Square.jpg
-  artifactKey: Guid(2ab8edbcc37965648ae8941f37f40dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Square.jpg using Guid(2ab8edbcc37965648ae8941f37f40dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '506f6bc776a893d02def42a69431bac4') in 0.847573 seconds 
-  Import took 0.880425 seconds .
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
